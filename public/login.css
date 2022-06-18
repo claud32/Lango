@@ -1,0 +1,37 @@
+main{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+}
+
+#leftDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background: linear-gradient(to right bottom, #606B9B, #B191D4);
+}
+
+#welcome{
+    font-family: 'Raleway', sans-serif;
+    font-size: 40pt;
+    color: white;
+}
+
+#customize{
+    color: #70C7A9;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17pt;
+}
+
+#rightDiv{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
